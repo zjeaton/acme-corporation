@@ -2152,7 +2152,7 @@ header {
   height: 100%;
   left: 0;
   top: 0;
-  background-image: url("http://localhost:1313/image/background_hu5fa5007403ed47f8e70c21b28ee4cec6_92766_1400x787_fill_q75_box_smart1.jpg");
+  background-image: url("http://localhost:1313/image/background.svg");
   background-size: cover; }
 
 .dark .background {
@@ -2580,7 +2580,7 @@ header {
   background-size: cover;
   height: auto; }
   .meta.content.with-background {
-    background-image: url("http://localhost:1313/image/background_hu5fa5007403ed47f8e70c21b28ee4cec6_92766_1400x787_fill_q75_box_smart1.jpg"); }
+    background-image: url("http://localhost:1313/image/background.svg"); }
   .meta.content:not(:first-of-type) {
     flex: 0; }
   .meta.content .tags {
