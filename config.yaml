@@ -26,7 +26,7 @@ menu:                                         # Menu placement
       url: /contact
       weight: 3
 params:                                       # Theme specific parameters  
-color: "#71B180"
+  color: "#71B180"
   copyright: "Copyright &copy; 2020 Acme Corporation. All Rights Reserved."
   footer:
     - title: About
@@ -36,9 +36,9 @@ color: "#71B180"
       recentCount: 7
     - title: Contact Us
       contact: true
-style: green
-logo: image/logo.png
-logo_small: image/logo.png
-about_us: Acme Corporation is the world's leading manufacturer of digital shapes. From squares and circles to triangles and hexagons, we have it all. Browse through our collection of various forms with different thickness and line styles. We shape the world. You live in it.
-recent_posts: 
-  enable: true
+  style: green
+  logo: image/logo.png
+  logo_small: image/logo.png
+  about_us: Acme Corporation is the world's leading manufacturer of digital shapes. From squares and circles to triangles and hexagons, we have it all. Browse through our collection of various forms with different thickness and line styles. We shape the world. You live in it.
+  recent_posts: 
+    enable: true
