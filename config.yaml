@@ -44,3 +44,5 @@ params:                                       # Theme specific parameters
     enable: true
 
 enableEmoji: true
+
+publishDir: docs             # output directory set to docs as required by GitHub Pages
