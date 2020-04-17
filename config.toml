@@ -15,11 +15,11 @@ theme = "github.com/hugoinaction/Eclectic"      # Name of the theme
 
 [menu]                                                # Menu placement
 
-    [[menu.main]]                                       #    - Name of the menu
-        identifier = "about"                                 #        - Identifier
-        name = "About"                                       #        - Display name (theme specific key)
-        url = "/about"                                           #        - Target URL
-        weight = 1.0                                        #        - Sorting order
+    [[menu.main]]                                       # Name of the menu
+        identifier = "about"                            # Identifier
+        name = "About"                                  # Display name (theme specific key)
+        url = "/about"                                  # Target URL
+        weight = 1.0                                    # Sorting order
 
     [[menu.main]]
         identifier = "contact"
