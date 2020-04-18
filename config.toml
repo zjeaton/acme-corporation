@@ -1,7 +1,8 @@
 baseURL = "http://example.org/"     # URL of the website
 languageCode = "en-us"              # Locale
 title = "Acme Corporation"          # Name of the website
-theme = "github.com/hugoinaction/Eclectic"      # Name of the theme
+# theme = "github.com/hugoinaction/Eclectic"      # Name of the theme
+theme = "github.com/hugoinaction/Universal"      # Name of the theme
 
 [author]                            # Information about the author
 
@@ -43,4 +44,13 @@ theme = "github.com/hugoinaction/Eclectic"      # Name of the theme
 
     [[params.footer]]
         title = "Contact Us"
-        contact = true                        
+        contact = true   
+
+    # Universal theme specific params
+        style = "green"
+        logo = "image/logo.png"
+        logo_small = "image/logo.png"
+        about_us = "Acme Corporation is the world's leading manufacturer of digital shapes. From squares and circles to triangles and hexagons, we have it all. Browse through our collection of various forms with different thickness and line styles. We shape the world. You live in it."
+
+    [[recent_posts]]
+        enable = "true"
