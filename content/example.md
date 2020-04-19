@@ -1,8 +1,9 @@
 +++
-title = "Example Markdown Page"
-date = 2020-04-18
+date = "2020-04-18T00:00:00-07:00"
 description = "An unlinked page with example markdown"
 draft = true
+title = "Example Markdown Page"
+
 +++
 
 Top Level H1
