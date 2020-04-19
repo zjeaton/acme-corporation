@@ -17,10 +17,6 @@ At Acme Corporation, we take pride in what we create. Our manufacturing process 
 
 <img src="/image/draw.jpg" alt="draw" style="float:right; margin: 20px;">
 
-
-![Draw](/image/draw.jpg)
-
-
 1. __Drawing__ - Our shapes are drawn with precision to the 1/100 of a millimeter.
 
 + We use advanced vector drawing tools to create our catalog.
