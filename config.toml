@@ -39,6 +39,30 @@ enableEmoji = true
         url = "/contact"
         weight = 2.0
 
+    [[menu.main]]
+        identifier = "terms"
+        name = "Terms"
+        url = "/terms"
+        weight = 3.0
+
+    [[menu.main]]
+        identifier = "privacy"
+        name = "Privacy"
+        url = "/privacy"
+        weight = 4.0
+
+    [[menu.main]]
+        identifier = "carousel"
+        name = "Carousel"
+        url = "/data-driven"
+        weight = 5.0
+
+    [[menu.main]]
+        identifier = "possibilities"
+        name = "Possibilities"
+        url = "/example"
+        weight = 6.0
+                        
 [params]                                # theme specific parameters
 
     # Eclectic theme specific params
