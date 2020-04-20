@@ -15,16 +15,6 @@ enableEmoji = true
         [markup.goldmark.renderer]
             unsafe = true
 
-[author]                            # Information about the author
-
-    facebook = "https://facebook.com/example"
-    twitter = "https://twitter.com/example"
-    email = "contact@example.org"
-    name = "Acme Corporation"
-    location = "New York"
-    phone = "(999) 999-9999"
-    hours = "**Mon-Fri:** 9:00AM - 6:00PM, ET"
-
 [menu]                                                # Menu placement
 
     [[menu.main]]                                       # Name of the menu
