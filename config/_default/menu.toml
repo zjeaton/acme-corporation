@@ -11,18 +11,6 @@
     weight = 2.0
 
 [[main]]
-    identifier = "terms"
-    name = "Terms"
-    url = "/terms"
-    weight = 3.0
-
-[[main]]
-    identifier = "privacy"
-    name = "Privacy"
-    url = "/privacy"
-    weight = 4.0
-
-[[main]]
     identifier = "carousel"
     name = "Carousel"
     url = "/data-driven"
