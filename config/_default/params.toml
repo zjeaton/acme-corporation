@@ -22,6 +22,10 @@ copyright = "Copyright &copy; 2020 Acme Corporation. All Rights Reserved."
     title = "Contact Us"
     contact = true   
 
+[[footer]]
+    title = "Links"
+    menu = true
+
 # recent posts for Universal theme
 # [recent_posts]
     # enable = "true"
