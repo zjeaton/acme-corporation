@@ -1,0 +1,36 @@
+[[main]]                                       # Name of the menu
+    identifier = "about"                            # Identifier
+    name = "About"                                  # Display name (theme specific key)
+    url = "/about"                                  # Target URL
+    weight = 1.0                                    # Sorting order
+
+[[main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 2.0
+
+[[main]]
+    identifier = "terms"
+    name = "Terms"
+    url = "/terms"
+    weight = 3.0
+
+[[main]]
+    identifier = "privacy"
+    name = "Privacy"
+    url = "/privacy"
+    weight = 4.0
+
+[[main]]
+    identifier = "carousel"
+    name = "Carousel"
+    url = "/data-driven"
+    weight = 5.0
+
+[[main]]
+    identifier = "possibilities"
+    name = "Possibilities"
+    url = "/example"
+    weight = 6.0
+        
