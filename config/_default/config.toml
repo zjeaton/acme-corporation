@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"     # URL of the website
+languageCode = "en-us"              # Locale
+title = "Acme Corporation"          # Name of the website
+theme = "github.com/hugoinaction/Eclectic"      # Name of the theme
+# theme = "github.com/hugoinaction/Universal"      # Name of the theme
+enableEmoji = true
+
+# sets line numbers in code blocks to on in ``` code fences
+[markup.highlight]
+    lineNos = true
+
+# enables inline html to render
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
