@@ -1,0 +1,5 @@
+# Taxonomies are defined as `<singular value>: <plural value>` (yaml) in Hugo
+
+category = "categories"
+series = "series"
+tag = "tags"
