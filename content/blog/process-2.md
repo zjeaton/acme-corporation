@@ -8,6 +8,9 @@ categories = [
   "square",
   "manufacturing"
 ]
+series = [
+  "manufacturing"
+]
 +++
 
 The three principal machining processes are classified as turning, drilling and milling. Other operations falling into miscellaneous categories include shaping, planing, boring, broaching and sawing.[5]
