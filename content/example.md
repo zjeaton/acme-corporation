@@ -175,3 +175,42 @@ Gabby
 : Cool Content Master
 : Cautious
 
+# Shortcodes
+
+## Embedded code highlight
+
+{{< highlight js "linenos=table,hl_lines=3-4,linenostart=1080" >}}
+/* Enjoy your work */
+if (!tired()) {
+  keepCoding();
+} else {
+  drinkCoffee();
+}
+{{</ highlight >}}
+
+## Nested YouTube video in Code
+
+{{< highlight html "linenos=table,hl_lines=3-4,linenostart=1080" >}}
+  <!-- Generated YouTube source code for video -->
+  {{</* youtube nLAVanlu5js */>}}
+  <!-- Output -->
+  {{< youtube nLAVanlu5js >}}
+{{</ highlight >}}
+
+## Now Some Built-in Shortcodes
+
+### Twitter
+
+{{< tweet 35767743634481152 >}}
+
+### Instagram
+
+{{< instagram BsOGulcndj- >}}
+
+### YouTube
+
+{{< youtube 2xkNJL4gJ9E >}}
+
+### Vimeo
+
+{{< vimeo 22439234 >}}
