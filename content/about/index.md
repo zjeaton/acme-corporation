@@ -12,6 +12,8 @@ Acme Corporation&trade; is the world's leading manufacturer of digital shapes. F
 
 We provide :smile: to hundreds of happy customers.
 
+{{< youtube id="nLAVanlu5js" >}}
+
 ## Manufacturing
 
 At Acme Corporation, we take pride in what we create. Our manufacturing process goes through __3 different__ stages of fine workmanship to give you the best possible shapes.
