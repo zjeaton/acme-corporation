@@ -214,3 +214,17 @@ if (!tired()) {
 ### Vimeo
 
 {{< vimeo 22439234 >}}
+
+### Inline Shortcodes (not working)
+
+// Inline Shortcode declaration and first use. Will be executed as HTML as declared with `<`. Can also declare with `%` to execute as markdown.
+
+// Unlike regular shortcodes these are declared inline with the content.
+
+{{< reuse.inline >}}nOT Working{{< /reuse.inline >}}
+
+// Shortcode used as HTML
+{{< reuse.inline />}}
+
+// Shortcode reused as markup
+{{% reuse.inline %}}
