@@ -16,3 +16,5 @@ enableEmoji = true
             unsafe = true
 
 enableGitInfo = true
+
+enableInlineShortcodes = true
