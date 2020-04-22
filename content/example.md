@@ -1,7 +1,7 @@
 +++
 date = "2020-04-18T00:00:00-07:00"
 description = "An unlinked page with example markdown"
-draft = true
+draft = false
 title = "Example Markdown Page"
 
 +++
