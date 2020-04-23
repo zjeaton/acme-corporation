@@ -4,7 +4,7 @@
   <link rel="stylesheet" type="text/css" href="index.css">
   {{ $title := $.Page.Title }}
   {{ if not $.Page.Title }}
-    {{ $title := $.Site.Title }}
+    {{ $title = $.Site.Title }}
   {{ end }}
   {{ if $title }}<title>{{ $title }}</title>{{end }}
   {{ if $.Page.Description }}<meta name="description" content="{{ $.Page.Description }}" />{{ end }}
