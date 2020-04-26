@@ -7,6 +7,7 @@ title = "Example Markdown Page"
 [menu]
   [menu.footer]
     name = "Possibilities"
+    identifier = "possibilities"
     weight = 5
 +++
 

@@ -28,6 +28,7 @@ title = "Sample data driven page using eclectic."
 [menu]
   [menu.footer]
     name = "Carousel"
+    identifier = "carousel"
     weight = 4
 +++    
 

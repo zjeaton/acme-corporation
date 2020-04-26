@@ -2,6 +2,7 @@
 [menu]
   [menu.footer]
     name = "Privacy Policy"
+    identifier = "privacy policy"
     weight = 6
 +++
 
