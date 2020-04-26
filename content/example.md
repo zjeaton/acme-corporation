@@ -4,7 +4,12 @@ description = "An unlinked page with example markdown"
 draft = false
 title = "Example Markdown Page"
 
+[menu]
+  [menu.footer]
+    name = "Possibilities"
+    weight = 5
 +++
+
 
 Top Level H1
 ============

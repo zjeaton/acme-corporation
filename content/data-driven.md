@@ -25,4 +25,9 @@ title = "Sample data driven page using eclectic."
     content = "A quadrilateral plane figure having all its angles right angles and its opposite sides consequently equal."
     title = "Rectangle"
 
-+++
+[menu]
+  [menu.footer]
+    name = "Carousel"
+    weight = 4
++++    
+

@@ -10,15 +10,4 @@
     url = "/contact"
     weight = 2.0
 
-[[main]]
-    identifier = "carousel"
-    name = "Carousel"
-    url = "/data-driven"
-    weight = 5.0
-
-[[main]]
-    identifier = "possibilities"
-    name = "Possibilities"
-    url = "/example"
-    weight = 6.0
         
