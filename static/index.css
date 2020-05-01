@@ -127,7 +127,7 @@ details summary::-webkit-details-marker {
 }
 
 .testimonials {
-  text-align: center;
+  text-align: left;
   min-width: 80vw;
 }
 
