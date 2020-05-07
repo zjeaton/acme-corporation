@@ -1,13 +1,5 @@
-<html>
-
-<head>
-  <link rel="stylesheet" type="text/css" href="index.css">
-  {{ $title := default .Site.Title .Page.Title }}
-  {{ with $title }}<title>{{ . }}</title>{{ end }}
-  {{ with .Page.Description }}<meta name="description" content="{{ . }}" />{{ end }}
-
-</head>
-
+{{ define "body" }}
+{{ $title := default .Site.Title .Page.Title }}
 <body>
   <section>
     <main>
@@ -91,5 +83,4 @@
     {{ .Param "copyright" | markdownify }}
   </footer>
 </body>
-
-</html>
+{{ end }}
