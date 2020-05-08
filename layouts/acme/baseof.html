@@ -6,6 +6,12 @@
     <meta name="description" content="{{ . }}" />{{ end }}
   </head>
   <body class="{{ block "bodyClass" . }}page{{ end }}">
+    {{ block "header" . }}
+    <header>
+      <a href="/"><img src="/image/logo.svg" width="60px"></a>
+      {{ partial "menu.html" . }}
+    </header>
+    {{ end }}
     {{ block "body" . }}
     <section>
       <main>
