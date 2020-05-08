@@ -5,7 +5,7 @@
     {{ with .Page.Description }}
     <meta name="description" content="{{ . }}" />{{ end }}
   </head>
-  <body>
+  <body class="{{ block "bodyClass" . }}page{{ end }}">
     {{ block "body" . }}
     <section>
       <main>
@@ -13,6 +13,11 @@
         {{ .Content }}
       </main>
     </section>
+    {{ end }}
+    {{ block "footer" . }}
+    <footer>
+      {{ .Param "copyright"| markdownify }}
+    </footer>
     {{ end }}
   </body>
 </html>
