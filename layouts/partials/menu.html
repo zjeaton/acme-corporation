@@ -2,10 +2,11 @@
   <ul>
     <!-- Must use -2 curly- partial "menu.html" $.Site.Menus.xxxx -2 curly- -->
     <!-- in the call of the partial. Otherwise fail build. -->
-    {{ range $ }}
+    {{ range $.Menu }}
       <li>
         <a href="{{ .URL }}">{{ .Name | humanize }}</a>
-        {{ if .HasChildren }}
+        <!-- Must use partial "menu.html (dict "Menu" $.Site.Menus.main "RenderSubmenus" true) in baseof -->
+        {{ if and .HasChildren $.RenderSubmenus }}
           <ul>
             {{ range .Children }}
             <li><a href="{{ .URL }}">{{ .Name | humanize }}</a></li>
