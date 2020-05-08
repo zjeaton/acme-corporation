@@ -7,15 +7,13 @@ categories = [
   "general"
 ]
 type = "acme"
+title = "Terms of Use"
 
 [menu]
   [menu.footer]
   name = "Terms of Use"
   weight = 2.0
 +++
-
-Terms of Use
-============
 
 ## Terms
 
