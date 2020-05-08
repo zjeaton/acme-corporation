@@ -9,7 +9,7 @@
     {{ block "header" . }}
     <header>
       <a href="/"><img src="/image/logo.svg" width="60px"></a>
-      {{ partial "menu.html" . }}
+      {{ partial "menu.html" $.Site.Menus.main }}
     </header>
     {{ end }}
     {{ block "body" . }}
@@ -22,9 +22,7 @@
     {{ end }}
     {{ block "footer" . }}
     <footer>
-      {{ range $.Site.Menus.footer }}
-      <a href="{{ .URL }}">{{ .Name | humanize }}</a>
-      {{ end }}
+      {{ partial "menu.html" $.Site.Menus.footer }}
       <br>
       {{ .Param "copyright" | markdownify }}
     </footer>

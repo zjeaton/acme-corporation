@@ -1,6 +1,8 @@
 <nav>
   <ul>
-    {{ range $.Site.Menus.main }}
+    <!-- Must use -2 curly- partial "menu.html" $.Site.Menus.xxxx -2 curly- -->
+    <!-- in the call of the partial. Otherwise fail build. -->
+    {{ range $ }}
       <li><a href="{{ .URL }}">{{ .Name | humanize }}</a></li>
     {{ end }}
   </ul>
