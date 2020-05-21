@@ -1,13 +1,20 @@
 +++
+draft = false
+tags = [
+  "unknown"
+]
+categories = [
+  "general"
+]
+type = "acme"
+title = "Privacy Policy"
+
 [menu]
   [menu.footer]
     name = "Privacy Policy"
     identifier = "privacy policy"
     weight = 6
 +++
-
-Privacy Policy
-==============
 
 Last updated **August 19, 2019**
 
