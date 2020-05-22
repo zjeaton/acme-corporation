@@ -125,7 +125,7 @@ h1 {
 }
 
 a {
-  color: #71B180;
+  color: {{ $.Param "color" }};
   text-decoration: none;
   padding: 10px;
   white-space: nowrap;
@@ -150,7 +150,7 @@ a:hover {
   width: 33%;
   box-sizing: border-box;
   padding: 10px;
-  border: 1px solid #71B180;
+  border: 1px solid {{ $.Param "color" }};
   display: inline-block;
 }
 
@@ -171,7 +171,7 @@ thead td {
 details summary {
   display: block;
   cursor: pointer;
-  color: #71B180;
+  color: {{ $.Param "color" }};
 }
 
 details summary::-webkit-details-marker {
