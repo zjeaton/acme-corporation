@@ -1,3 +1,11 @@
+{{ define "bodyClass" }}
+  {{ if eq "news" (path.Dir .Page.CurrentSection.File.Path) }}
+    news
+  {{ else }}
+    page
+  {{ end }}
+{{ end }}
+
 <html>
   <head>
     {{ $css := resources.Match "*.scss.tpl" | resources.Concat "index.scss" | resources.ExecuteAsTemplate "index.css" . | resources.ToCSS | resources.Minify }}
@@ -8,7 +16,7 @@
     {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/opengraph.html" . }}
   </head>
-  <body class="{{ block "bodyClass" . }}page{{ end }}">
+  <body class="{{ block "bodyClass" . }}{{ end }}">
     {{ block "header" . }}
     <header>
       {{ $logo := resources.GetMatch "image/logo.svg.tpl" | resources.ExecuteAsTemplate "logo.svg" . }}
