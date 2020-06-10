@@ -194,6 +194,10 @@ details summary::-webkit-details-marker {
   article {
     margin: 0 10px 0 10px;
   }
+
+  header {
+    padding: 0 10px;
+  }
 }
 
 @media only screen and (min-width : 480px) {
@@ -201,6 +205,15 @@ details summary::-webkit-details-marker {
   main,
   article {
     margin: 0 30px 0 30px;
+  }
+
+  header {
+    padding: 0 30px;
+  }
+
+  .post {
+    width: calc(100% - 30px);
+    margin: 15px;
   }
 }
 
@@ -210,20 +223,36 @@ details summary::-webkit-details-marker {
   article {
     margin: 0 40px 0 40px;
   }
+
+  header {
+    padding: 0 40px;
+  }
+
+  .post {
+    width: calc(50% - 30px);
+    margin: 15px;
+  }
 }
 
 @media only screen and (min-width : 992px) {
 
   main,
-  article {
-    max-width: 880px;
+  article,
+  header {
+    max-width: 800px;
+  }
+
+  .post {
+    width: calc(33% - 30px);
+    margin: 15px;
   }
 }
 
 @media only screen and (min-width : 1200px) {
 
   main,
-  article {
+  article,
+  header {
     max-width: 1000px;
   }
 }

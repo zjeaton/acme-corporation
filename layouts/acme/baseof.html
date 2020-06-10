@@ -1,11 +1,3 @@
-{{ define "bodyClass" }}
-  {{ if eq "news" (path.Dir .Page.CurrentSection.File.Path) }}
-    news
-  {{ else }}
-    page
-  {{ end }}
-{{ end }}
-
 <html>
   <head>
     {{ $css := resources.Match "*.scss.tpl" | resources.Concat "index.scss" | resources.ExecuteAsTemplate "index.css" . | resources.ToCSS | resources.Minify }}
