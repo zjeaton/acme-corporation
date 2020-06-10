@@ -8,7 +8,7 @@
     {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/opengraph.html" . }}
   </head>
-  <body class="{{ block "bodyClass" . }}page{{ end }}">
+  <body class="{{block "bodyClass" .}}page{{end}}">
     {{ block "header" . }}
     <header>
       {{ $logo := resources.GetMatch "image/logo.svg.tpl" | resources.ExecuteAsTemplate "logo.svg" . }}
