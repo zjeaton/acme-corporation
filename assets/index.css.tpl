@@ -1,5 +1,3 @@
-img { max-width: 100%; }
-
 body {
   /* text-align: center;
   display: flex;
@@ -34,12 +32,12 @@ nav li {
   display: inline-block;
 }
 
-header nav>ul {
+header nav > ul {
   height: 80px;
   margin: 0;
 }
 
-header nav>ul>li {
+header nav > ul > li {
   padding: 0;
   margin: 0;
   height: 80px;
@@ -76,6 +74,7 @@ section {
   justify-content: center;
   padding: 40px;
   box-sizing: border-box;
+  width: 100vw;
 }
 
 .page section {
@@ -133,6 +132,7 @@ a {
   padding: 10px;
   white-space: nowrap;
   display: inline-block;
+  vertical-align: middle;
 }
 
 a:hover {
@@ -145,12 +145,13 @@ a:hover {
 
 .posts {
   display: flex;
-  gap: 30px;
-  margin: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
 }
 
 .post {
-  width: 33%;
+  width: calc(100% - 30px);
+  margin: 15px;
   box-sizing: border-box;
   padding: 10px;
   border: 1px solid {{ $.Param "color" }};

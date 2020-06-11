@@ -1,5 +1,5 @@
 +++
-type = "default"
+layout = "list"
 
 [menu]
   [menu.main]

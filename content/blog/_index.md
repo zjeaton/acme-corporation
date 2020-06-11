@@ -1,5 +1,5 @@
 +++
-type = "default"
+layout = "list"
 
 [cascade]
   layout = "blog"
