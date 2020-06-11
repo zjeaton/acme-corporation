@@ -1,4 +1,10 @@
 +++
+type = "default"
+
+[cascade]
+  layout = "blog"
+  type = "acme"
+
 [menu]
     [menu.main]
         name = "Blog"
