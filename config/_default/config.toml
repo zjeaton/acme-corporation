@@ -3,7 +3,12 @@ languageCode = "en-us"              # Locale
 title = "Acme Corporation"          # Name of the website
 theme = "github.com/hugoinaction/Eclectic"      # Name of the theme
 # theme = "github.com/hugoinaction/Universal"      # Name of the theme
+
 enableEmoji = true
+enableGitInfo = true
+enableInlineShortcodes = true
+
+paginate = 3
 
 # sets line numbers in code blocks to on in ``` code fences
 [markup.highlight]
@@ -14,7 +19,3 @@ enableEmoji = true
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
-
-enableGitInfo = true
-
-enableInlineShortcodes = true
