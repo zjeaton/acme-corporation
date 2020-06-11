@@ -13,7 +13,6 @@ categories = [
   "general"
 ]
 
-
 +++
 
 A license (American English) or licence (British English) is an official permission or permit to do, use, or own something (as well as the document of that permission or permit).
