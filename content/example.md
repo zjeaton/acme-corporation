@@ -3,12 +3,6 @@ date = "2020-04-18T00:00:00-07:00"
 description = "An unlinked page with example markdown"
 draft = false
 title = "Example Markdown Page"
-
-[menu]
-  [menu.footer]
-    name = "Possibilities"
-    identifier = "possibilities"
-    weight = 5
 +++
 
 
