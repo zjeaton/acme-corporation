@@ -9,8 +9,7 @@ categories = [
 ]
 
 type = "acme"
-title = "Terms of Use"
-toc = true
+
 
 [menu]
   [menu.footer]

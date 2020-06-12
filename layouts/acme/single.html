@@ -1,7 +1,0 @@
-{{ define "bodyClass" }}
-  {{ if eq "news" (path.Dir .Page.CurrentSection.File.Path) }}
-    news
-  {{ else }}
-    page
-  {{ end }}
-{{ end }}
