@@ -1,9 +1,13 @@
 +++
 title = "Categories"
+
 [menu]
   [menu.footer]
     weight = 3
     name = "Categories"
+
+[cascade]
+  type = "acme"
 +++
 
 At Acme Corporation we produce shapes and love to talk about them.
