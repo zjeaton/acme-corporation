@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"     # URL of the website
 languageCode = "en-us"              # Locale
 title = "Acme Corporation"          # Name of the website
+theme = "acme"
 # theme = "github.com/hugoinaction/Eclectic"      # Name of the theme
 # theme = "github.com/hugoinaction/Universal"      # Name of the theme
 

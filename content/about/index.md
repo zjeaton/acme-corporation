@@ -36,6 +36,8 @@ At Acme Corporation, we take pride in what we create. Our manufacturing process 
 2. __Rasterizing__ - Our raster engine is world class and keeps the vector right until it gets to our high quality laser printers.
 3. __Delivery__ - Our output is hosted on the fastest of CDN with a 99.99% uptime and the bandwidth that can take care of all your load.
 
+{{< divider >}}
+
 ## Products
 
 {{% productInfo %}}
