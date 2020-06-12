@@ -6,7 +6,6 @@ tags = [
 categories = [
   "general"
 ]
-type = "acme"
 title = "Privacy Policy"
 
 [menu]

@@ -1,8 +1,4 @@
 +++
-
-[cascade]
-  type = "acme"
-
 [menu]
     [menu.main]
         name = "News"

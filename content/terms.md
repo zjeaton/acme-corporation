@@ -8,7 +8,6 @@ categories = [
   "general"
 ]
 
-type = "acme"
 title = "Terms of Use"
 toc = true
 

@@ -1,10 +1,4 @@
 +++
-layout = "list"
-
-[cascade]
-  layout = "blog"
-  type = "acme"
-
 [menu]
     [menu.main]
         name = "Blog"
